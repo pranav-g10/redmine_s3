@@ -13,6 +13,7 @@ module RedmineS3
       :private           => false,
       :expires           => nil,
       :secure            => false,
+      :proxy             => false,
       :thumb_folder      => 'tmp'
     }
 
@@ -66,6 +67,10 @@ module RedmineS3
 
       def secure?
         @@s3_options[:secure]
+      end
+
+      def proxy?
+        @@s3_options[:proxy]
       end
 
       def thumb_folder

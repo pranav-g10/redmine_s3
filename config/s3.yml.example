@@ -7,6 +7,7 @@ production:
   secure:
   private:
   expires:
+  proxy:
   thumb_folder:
 
 development:
@@ -18,6 +19,7 @@ development:
   secure:
   private:
   expires:
+  proxy:
   thumb_folder:
 
 # Uncomment this to run plugin tests with standart redmine script
