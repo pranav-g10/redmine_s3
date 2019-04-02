@@ -1,25 +1,23 @@
 production:
   access_key_id:
   secret_access_key:
+  region:
   bucket:
   folder:
-  endpoint:
   secure:
   private:
   expires:
-  proxy:
   thumb_folder:
 
 development:
   access_key_id:
   secret_access_key:
+  region:
   bucket:
   folder:
-  endpoint:
   secure:
   private:
   expires:
-  proxy:
   thumb_folder:
 
 # Uncomment this to run plugin tests with standart redmine script
